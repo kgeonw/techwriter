@@ -1,14 +1,14 @@
-# My dot points to decide to become an API writer
+# 공부를 시작한 계기
 
-테크니컬 라이터로서 더욱 가치를 높이려면 프로그래밍을 다룰 수 있는 테크니컬 라이터가 되는 것이다. 
+## My dot points to decide to become an API writer
 
-단순히 번역가에 가까운, 혹은 언어적인 면만 다루는 얄팍한 지식을 가 테크니컬 라이터보다는 
+테크니컬 라이터로서 더욱 가치를 높이려면 프로그래밍을 다룰 수 있는 테크니컬 라이터가 되는 것이다.
+
+단순히 번역가에 가까운, 혹은 언어적인 면만 다루는 얄팍한 지식을 가 테크니컬 라이터보다는
 
 4차혁명이 일어나도 내 일자리에는 영향이 없는 그런 실력 있는 테크니컬 라이터가 되고 싶다.
 
-
-
-## \#1.
+### \#1.
 
 우연찮게 대기업에서 테크니컬 라이터 면접 제의를 받았는데 1차 면접에서 떨어졌다.
 
@@ -36,7 +36,7 @@ HTML, CSS는 재밌게 배웠는데, JAVASCRIPT, JAVA로 넘어가니 이게 내
 
 그래서 API 를 가져다 쓰는 연습과, 조금 더 익숙해 진다면 앱을 한 번 만들어볼까 한다.
 
-## \#2.
+### \#2.
 
 \[영어 글쓰기와과 프로그래밍 익히기\]
 
@@ -60,9 +60,5 @@ HTML, CSS는 재밌게 배웠는데, JAVASCRIPT, JAVA로 넘어가니 이게 내
 
 그렇게 1차 면접을 보았고
 
-{% embed url="https://ffeathers.wordpress.com/2013/08/17/how-to-become-an-api-technical-writer/" %}
-
-
-
-
+\[[https://ffeathers.wordpress.com/2013/08/17/how-to-become-an-api-technical-writer](https://ffeathers.wordpress.com/2013/08/17/how-to-become-an-api-technical-writer/)\]
 
