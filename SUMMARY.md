@@ -12,5 +12,6 @@
   * [\#4 Hugo 테마 적용](undefined/4-hugo/README.md)
     * [Hugo가 적용될 Submodule 폴더 생성](undefined/4-hugo/hugo-submodule.md)
     * [Gitbook - Github 연동](undefined/4-hugo/undefined.md)
-    * [Q. 왜 내 블로그가 보이지 않을까?](undefined/4-hugo/q..md)
+    * [Q.왜 내 블로그가 보이지 않을까?](undefined/4-hugo/q.-github-gitbook.md)
+    * [Q. Gitbook에서 날라가버린 데이터들은 어떻게 복구할까](undefined/4-hugo/q.-gitbook.md)
 

@@ -6,7 +6,7 @@
 
 다시 구글링.
 
-![](../.gitbook/assets/image%20%2810%29.png)
+![](../.gitbook/assets/image%20%2820%29.png)
 
 4. Open the terminal.
 
@@ -20,7 +20,7 @@ Git을 다운 받았다.
 
 Initialize까지 성공.
 
-![](../.gitbook/assets/image%20%283%29.png)
+![](../.gitbook/assets/image%20%2812%29.png)
 
 
 

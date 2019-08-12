@@ -6,13 +6,15 @@ Gitbook로 블로그를 작성하긴 했는데 Hugo 테마를 적용하고 커�
 
 Github와 Gitbook연동을 하지 않았다.
 
-![](../../.gitbook/assets/image%20%2818%29.png)
+[아보느 님의 유튜브 강의](https://youtu.be/e9DMxI_XOPI)를 통해 쉽게 해결했다.
+
+![](../../.gitbook/assets/image%20%2828%29.png)
 
 Gitbook으로 글쓰기 를 선택 후,
 
-![](../../.gitbook/assets/image%20%2825%29.png)
+![](../../.gitbook/assets/image%20%2835%29.png)
 
-![](../../.gitbook/assets/image%20%2815%29.png)
+![](../../.gitbook/assets/image%20%2825%29.png)
 
 연동을 했더니 드디어 Gitbook으로 썼던 컨텐츠들이 Github에 보이기 시작했다.
 
@@ -20,11 +22,11 @@ Gitbook으로 글쓰기 를 선택 후,
 
 이번엔 로컬로 가져와볼까?
 
-![](../../.gitbook/assets/image%20%284%29.png)
+![](../../.gitbook/assets/image%20%2813%29.png)
 
 Github의 blog repository에 있던 데이터들도 내 로컬 pc로 들어왔다.
 
-![](../../.gitbook/assets/image%20%2813%29.png)
+![](../../.gitbook/assets/image%20%2823%29.png)
 
 그런데 아직도 개념이 잘 서지 않는다.
 

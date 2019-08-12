@@ -6,7 +6,7 @@ blog - \(Main\)
 
 naraewool.github.io - \(Hugo website\)
 
-![](../../.gitbook/assets/image%20%2814%29.png)
+![](../../.gitbook/assets/image%20%2824%29.png)
 
 
 
@@ -14,13 +14,13 @@ naraewool.github.io - \(Hugo website\)
 
 
 
-![](../../.gitbook/assets/image%20%285%29.png)
+![](../../.gitbook/assets/image%20%2814%29.png)
 
-![](../../.gitbook/assets/image%20%2824%29.png)
+![](../../.gitbook/assets/image%20%2834%29.png)
 
 계속 오류나더니 드디어 public 폴더가 생성되고 submodule로 지정되었다. 
 
-![](../../.gitbook/assets/image%20%2819%29.png)
+![](../../.gitbook/assets/image%20%2829%29.png)
 
 
 
