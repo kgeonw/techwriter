@@ -8,13 +8,13 @@ Github와 Gitbook연동을 하지 않았다.
 
 [아보느 님의 유튜브 강의](https://youtu.be/e9DMxI_XOPI)를 통해 쉽게 해결했다.
 
-![](../../.gitbook/assets/image%20%2828%29.png)
+![](../../.gitbook/assets/image%20%2829%29.png)
 
 Gitbook으로 글쓰기 를 선택 후,
 
-![](../../.gitbook/assets/image%20%2835%29.png)
+![](../../.gitbook/assets/image%20%2836%29.png)
 
-![](../../.gitbook/assets/image%20%2825%29.png)
+![](../../.gitbook/assets/image%20%2826%29.png)
 
 연동을 했더니 드디어 Gitbook으로 썼던 컨텐츠들이 Github에 보이기 시작했다.
 
