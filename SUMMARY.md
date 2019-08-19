@@ -2,7 +2,7 @@
 
 * [About me](README.md)
 * [성장 일기](untitled/README.md)
-  * [To become an API writer \(작업중\)](untitled/untitled.md)
+  * [API Tech. Writer가 되기 위한 여정](untitled/untitled.md)
   * [API 문서를 작성하는 법](untitled/api.md)
   * [나의 이야기](untitled/to-become-an-api-writer.md)
 * [공부 기록](undefined/README.md)
