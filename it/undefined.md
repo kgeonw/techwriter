@@ -12,3 +12,5 @@
 
 {% embed url="http://m.zdnet.co.kr/news\_view.asp?article\_id=20190721085551&re=zdk&fbclid=IwAR2QOu1UaC4stNRLseCjac1Gi58-RSCKxAdPyz1y\_AwKwVMWdZt3cyJtCDI\#imadnews" %}
 
+
+
