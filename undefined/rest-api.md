@@ -1,4 +1,6 @@
-# REST API
+# REST API 공부
+
+## 참조 사이트
 
 [API Glossary](https://idratherbewriting.com/learnapidoc/docapis_glossary_section.html)
 
