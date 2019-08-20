@@ -65,11 +65,11 @@ Hugo 설치하는 동[영상 ](https://youtu.be/G7umPCU-8xc)가이드를 보았�
 
 역시 글 보단 영상이군.
 
-![](../.gitbook/assets/image%20%2826%29.png)
+![](../.gitbook/assets/image%20%2827%29.png)
 
 `$ hugo new site blog`명령으로 C:/Hugo/bin 폴더에 blog 폴더를 생성하다.
 
-![](../.gitbook/assets/image%20%2830%29.png)
+![](../.gitbook/assets/image%20%2831%29.png)
 
 ## 3. Git 설치
 
@@ -79,7 +79,7 @@ Hugo 설치하는 동[영상 ](https://youtu.be/G7umPCU-8xc)가이드를 보았�
 
 다시 구글링.
 
-![](../.gitbook/assets/image%20%2825%29.png)
+![](../.gitbook/assets/image%20%2826%29.png)
 
 위 이미지에서 막힌 부분: **4. Open the terminal.**
 
@@ -124,17 +124,17 @@ blog - \(Main\)
 
 naraewool.github.io - \(Hugo website\)
 
-![](../.gitbook/assets/image%20%2832%29.png)
+![](../.gitbook/assets/image%20%2833%29.png)
 
 그리고 main을 원격저장소로 지정하고 hugo website를 submodule로 등록한다.
 
 ![](../.gitbook/assets/image%20%2819%29.png)
 
-![](../.gitbook/assets/image%20%2842%29.png)
+![](../.gitbook/assets/image%20%2843%29.png)
 
 계속 오류나더니 드디어 public 폴더가 생성되고 submodule로 지정되었다. 
 
-![](../.gitbook/assets/image%20%2837%29.png)
+![](../.gitbook/assets/image%20%2838%29.png)
 
 
 

@@ -6,6 +6,8 @@
 
 Software as a Service\(SaaS\)의 인기에 힘 입어 많은 Web API가 생겨났지만 API 가이드의 형식\(Format\)과 질\(quality\)은 모두 제각각이다. 좋은 문서는 비용을 절감할 뿐 아니라 해당 플랫폼에 관심 있어하는 개발자를 독려하고 흥미를 유지시킨다. 이상적으로 해당 문서는 네 가지 영역을 다루어야 한다: **overview, getting started, sample code, and references**
 
+![](../.gitbook/assets/image%20%2825%29.png)
+
 이 글에서는 Web API 문서에 특화된 최상의 방법\(best practices\)을 소개한다.
 
 **자동생성 문서\(Auto-generate Documentation\)**
@@ -27,6 +29,8 @@ API 문서를 작성하는데 필요한 일을 최소화하려면 당신이 제�
 **요청과 응답의 예를 설명하라\(Show Example Requests and Responses\)**
 
 샘플 코드와 더불어 요청\(request\)과 응답\(\(response\)에 HTTP, XML, and JSON 샘플을 갖는 것은 중요하다. 하지만 샘플만 가지고서는 충분하지 않다. 호출\(Call\)의 목적을 설명하고 각각의 요소\(element\)를 설명하는 표가 필요하다. Name, Type, Description, Remark의 열을 가진 표를 추천한다.
+
+![](https://www.programmableweb.com/wp-content/web-api-table.gif)
 
 Type 열은 형식\(format\)과 관련하여 필요한 대부분의 정보를 제공할지 모르지만 remark 섹션은 더욱 더 명확하게 하기 위해 필요할지 모른다. XML 요소가 날짜라면 당신은 날짜의 형식을 명시해야 한다. 시간이라면 시간대\(time-zone\)을 명시해야 한다.
 

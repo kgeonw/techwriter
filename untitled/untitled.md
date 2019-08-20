@@ -47,7 +47,7 @@
 > **Keep in mind that your level of involvement with editing, publishing, and authoring depends on your level of tech knowledge.** If you have a strong knowledge of the tech, you can author, edit, and publish. If you have weak tech knowledge, your role might involve publishing only. The following spectrum diagram illustrates this range of involvement:  
 >
 >
-> ![](../.gitbook/assets/image%20%2845%29.png)
+> ![](../.gitbook/assets/image%20%2846%29.png)
 >
 > ...
 >
