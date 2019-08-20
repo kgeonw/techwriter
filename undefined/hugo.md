@@ -248,6 +248,38 @@ Cloning한 폴더를 그냥 삭제 해도 되는지, submodule 폴더는 이름�
 
 
 
+++ 번외
+
+여기까지 Hugo를 이용한 웹 페이지 꾸미기를 실행하다가 투자되는 시간 대비 너무 다른 길로 새는 느낌이 들어 곧바로 글과 그림을 올리고 퍼블리슁할 수 있는 Gitbook에 글을 올리기 시작했다.
+
+친숙한 UI와 편리한 기능 제공으로 나에게는 안성맞춤이지만 이게 문서에 특화된 플랫폼이라 그런지 게시글이 사이드바에  추가되어 영 블로그느낌이 아닌 매뉴얼 느낌이 나는게 문제다.
+
+더군다나 글을 쓰고 완성하지 못한 채로 Merge를 하게 되면 미된 미완성된 글과 뒤죽박죽인 카테고리를 누가 볼 수도 있어 영 찜찜하다.
+
+
+
+요새 대부분의 기술 블로그는 Github에 Jekyll 테마를 이용하여 제작하는 듯 하다.
+
+{% embed url="http://tech.kakao.com/2016/07/07/tech-blog-story/" %}
+
+{% embed url="https://blog.chulgil.me/how-to-make-blog-using-github/" %}
+
+{% embed url="http://labs.brandi.co.kr/2018/05/14/chunbs.html" %}
+
+
+
+jekyll를 이용하여 다시 블로그를 만들어야 하나. 일단 머릿속에 있는 생각들과 공부 중인 내용은 꾸준히 Gitbook에 올리면서 조금 더 신중하게 고민한 후 결정해야지. 제 2의 Hugo 사태를 만들면 안되니까.
+
+
+
+{% embed url="https://help.github.com/en/articles/using-jekyll-as-a-static-site-generator-with-github-pages" %}
+
+
+
+
+
+
+
 
 
 
