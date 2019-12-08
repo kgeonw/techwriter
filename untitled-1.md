@@ -49,28 +49,35 @@ Kakao redirects the user back to your app thorugh/via Redirect URI
 
 '시작하기 &gt; [앱 생성](https://developers.kakao.com/docs/restapi/getting-started#앱-생성)' 항목
 
-### **2.**     **Configure your app**
+### **2.**     **Configure an app**
 
 '시작하기 &gt; [사용자 관리 설정](https://developers.kakao.com/docs/restapi/getting-started#사용자-관리-설정)' 항목 
 
-1.     Activate xxx // 사용자 관리 On.
 
-2.     Specify Permissions to access user’s information // 로그인 동의 항목 설정, 개인정보 보호항목, 접근권한 관리항목  
-  // Apply for email permisoon\(LN\)  //. /
 
-3.     Set redirect URLs
+#### Step1: Activate \[Login with Kakao\]
 
-4.     Add Kakaotalk Channel
+![](.gitbook/assets/image%20%289%29.png)
 
-5.     Disconnect Login Service
+#### Step2: Specify Items for Permissions 
+
+![](.gitbook/assets/image%20%281%29.png)
+
+#### Step3: Set redirect URL
+
+![](.gitbook/assets/image%20%2837%29.png)
+
+#### Step4: Add Kakaotalk Channel
+
+
+
+#### Step5: Disconnect an app
 
 ## Integrating Kakao Login
 
 ### Authentication
 
 Kakao Login API complies with OAuth 2.0. The Open Authorization\(OAuth\) is a standard authorization framework that allows a third-party application to access limited information with an access token without user’s ID and password. For the details about OAuth 2.0, click [here](https://tools.ietf.org/html/rfc6749).
-
-
 
 #### 
 
@@ -279,6 +286,8 @@ Content-Type: application/json;charset=UTF-8
 
 #### Step3: Refresh an Access Token
 
+사용자 토큰 갱신하기 
+
 
 
 #### Step4: Validate an Access Token & Get Information
@@ -287,16 +296,16 @@ Content-Type: application/json;charset=UTF-8
 
 ### 
 
-### Adding a Login Button
+### Add a Login Button
 
-로그인 API를 사용한 후, \[카카오 로그인\] 버튼을 추가하는 방법을 이 항목으로 추가.  
+로그인 API를 사용한 후, [\[카카오 로그인\] 버튼](https://developers.kakao.com/buttons#Login_Buttons)을 추가하는 방법을 이 항목으로 추가.  
 순차적으로 진행하는 방식으로 배치 변경
 
 
 
 #### Button Download
 
-![](.gitbook/assets/image%20%2846%29.png)
+![](.gitbook/assets/image%20%2850%29.png)
 
 #### 
 
@@ -306,16 +315,18 @@ Content-Type: application/json;charset=UTF-8
 
 
 
-#### Marketing Tips / Best Practices
+#### Best Practices
 
-\[카카오 로그인\] 버튼을 효과적으로 사용할 수 있는 방법과 예시 설명하기 위한 항목 추
+\[카카오 로그인\] 버튼을 효과적으로 사용할 수 있는 방법**\(Tip\)**과 예시 추
 
   
 
 
 ## After Login
 
-User Management/ Advanced
+**\(Or User Management/ Advanced\)**
+
+\*\*\*\*
 
 ### Log out of Kakao
 
@@ -325,21 +336,23 @@ User Management/ Advanced
 
 '연동 해제' 항목
 
+### Save User Profile
+
+'사용자 정보 저장' 항목
+
 ### Retrieve user profile 
 
 '사용자 정보 요청' 항목
 
-### Save User Profile
+### Retrieve User **ID** List  
 
-'사용자 정보 저장' 항목
+'사용자 ID 리스트 요청' 항목
 
 ### Make an additional request 
 
 '동적동의' 항목
 
-### Retrieve User List  
-
-'사용자 리스트 요청' 항목
+### 
 
 ### \*\*\*\*
 
@@ -407,17 +420,19 @@ User Management/ Advanced
 
 개발가이드에 나오는 용어를 정리한 용어집\(Glossary\) 항목 새로 추가 
 
+
+
+
+
 \*\*\*\*
 
+{% hint style="info" %}
+**Is this page helpful?**
 
+ **Yes / Kind of / No**
+{% endhint %}
 
-{% tabs %}
-{% tab title="First Tab" %}
+\*\*\*\*
 
-{% endtab %}
-
-{% tab title="Second Tab" %}
-
-{% endtab %}
-{% endtabs %}
+ **&gt;&gt; Next steps:** Kakao Talk
 

@@ -6,7 +6,7 @@
 
 Software as a Service\(SaaS\)의 인기에 힘 입어 많은 Web API가 생겨났지만 API 가이드의 형식\(Format\)과 질\(quality\)은 모두 제각각이다. 좋은 문서는 비용을 절감할 뿐 아니라 해당 플랫폼에 관심 있어하는 개발자를 독려하고 흥미를 유지시킨다. 이상적으로 해당 문서는 네 가지 영역을 다루어야 한다: **overview, getting started, sample code, and references**
 
-![](../.gitbook/assets/image%20%2825%29.png)
+![](../.gitbook/assets/image%20%2827%29.png)
 
 이 글에서는 Web API 문서에 특화된 최상의 방법\(best practices\)을 소개한다.
 

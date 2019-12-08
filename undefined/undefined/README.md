@@ -32,11 +32,11 @@ Github와 Gitbook연동을 하지 않았다.
 
 아보느 님의 유튜브 강의를 통해 쉽게 해결했다.
 
-![](../../.gitbook/assets/image%20%2837%29.png)
+![](../../.gitbook/assets/image%20%2841%29.png)
 
-![](../../.gitbook/assets/image%20%2845%29.png)
+![](../../.gitbook/assets/image%20%2849%29.png)
 
-![](../../.gitbook/assets/image%20%2834%29.png)
+![](../../.gitbook/assets/image%20%2838%29.png)
 
 연동을 했더니 드디어 Gitbook으로 썼던 컨텐츠들이 Github에 보이기 시작했다.
 
@@ -48,11 +48,11 @@ Github와 Gitbook연동을 하지 않았다.
 
 이번엔 작성한 컨텐츠를 로컬로 가져와볼까?
 
-![](../../.gitbook/assets/image%20%2818%29.png)
+![](../../.gitbook/assets/image%20%2820%29.png)
 
 Github의 blog repository에 있던 데이터들도 내 로컬 pc로 들어왔다.
 
-![](../../.gitbook/assets/image%20%2830%29.png)
+![](../../.gitbook/assets/image%20%2833%29.png)
 
 그런데 아직도 개념이 잘 서지 않는다.
 
@@ -75,7 +75,7 @@ Hugo를 사용하기 위해 repository를 blog랑 naraewool.io.git을 만들었�
 
 Gitbook과 연동한 Github 페이지가 내 계정으로 접속해도 계속 빈 페이지만 나와 처음부터 다시 시작하고자 Github에서 repository를 과감히 삭제했다.
 
-![Settings &amp;gt; Danger Zone &amp;gt; Delete this repository](../../.gitbook/assets/image%20%284%29.png)
+![Settings &amp;gt; Danger Zone &amp;gt; Delete this repository](../../.gitbook/assets/image%20%285%29.png)
 
 그런데 다음 날 로그인했더니, Gitbook에 내 글들이 모두 사라진게 아닌가.
 
@@ -85,17 +85,17 @@ github에서 복구는 어려운 것 같고 \(복구 방법이 있을지 모르�
 
 Gitbook 메뉴를 뒤졌다.
 
-![](../../.gitbook/assets/image%20%285%29.png)
+![](../../.gitbook/assets/image%20%286%29.png)
 
 다행히 Archive에서 나의 활동 로그들이 다 남았고, 나는 특정 게시글을 작성/편집했던 순간으로 들어와 Merge할 수 있었다.
 
-![](../../.gitbook/assets/image%20%287%29.png)
+![](../../.gitbook/assets/image%20%288%29.png)
 
 그리고 분실한 카테고리는... 
 
 다른 레파지토리에 있던 소스를 데스크탑에 다운로드 받아 로컬저장소와 직접 복- 붙.
 
-![](../../.gitbook/assets/image%20%282%29.png)
+![](../../.gitbook/assets/image%20%283%29.png)
 
 카테고리 하나가 날라서 그 카테고리 폴더만 복사하고, Summery.md에서 목차만 바꿔주면 될 줄 알았는데 이미지 파일의 갯수가 달랐다. 추가분만 복-붙하면 될줄 알았는데 서로 넘버링이 달랐다. 
 
@@ -105,11 +105,11 @@ Gitbook 메뉴를 뒤졌다.
 
 다행히 모바일 폰에서는 내 깃북 페이지가 살아있어 텍스트만 복사해두었다.
 
-![](../../.gitbook/assets/image%20%2851%29.png)
+![](../../.gitbook/assets/image%20%2855%29.png)
 
 그리고 Gitbook과 Github을 동기화 하려고, 원격 저장소를 연결했다.
 
-![](../../.gitbook/assets/image%20%288%29.png)
+![](../../.gitbook/assets/image%20%2810%29.png)
 
 원격저장소가 알고 있는 저장소를 모두 알려준다길래
 
@@ -126,7 +126,7 @@ $ git remote remove origin
 $ git remote origin [url]
 ```
 
-![](../../.gitbook/assets/image%20%2814%29.png)
+![](../../.gitbook/assets/image%20%2816%29.png)
 
 
 
@@ -136,11 +136,11 @@ github의 기본 주소인 _username_.github.io/_project name_을 치면 내 git
 
 gitbook과 github을 성공적으로 연동해서 github에는 컨텐츠들이 잘 보이는
 
-![](../../.gitbook/assets/image%20%281%29.png)
+![](../../.gitbook/assets/image%20%282%29.png)
 
 _username_.github.io/_project name_에 접속하면 메인 페이지가 gitbook에서 설정한 페이지가 아니라 github에서 수정한 레파지토리의 description만 보인_._ 
 
-![](../../.gitbook/assets/image%20%2813%29.png)
+![](../../.gitbook/assets/image%20%2815%29.png)
 
 왜 naraewool.github.io  또는 naraewool.github.io/\[project name\] 주소를 쳐도 내 Gitbook에서 작성한 블로그가 보이지 않는걸까? 
 
