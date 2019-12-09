@@ -2,10 +2,10 @@
 
 * [About me](README.md)
 * [성장 일기](untitled/README.md)
+  * [구글 테크니컬라이터가 전하는 이야기](untitled/undefined.md)
   * [API Tech. Writer가 되기 위한 여정](untitled/untitled.md)
   * [API 문서를 작성하는 법](untitled/api.md)
   * [Web API Documentation Best Practices](untitled/web-api-documentation-best-practices.md)
-  * [나의 이야기](untitled/to-become-an-api-writer.md)
 * [공부 기록](undefined/README.md)
   * [\[Project\] 글쓰기 습관 들이기](undefined/untitled-1.md)
   * [\[Project\] 나만의 웹페이지 만들기 \(github + hugo\)](undefined/hugo.md)
