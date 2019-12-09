@@ -105,7 +105,7 @@ Gitbook 메뉴를 뒤졌다.
 
 다행히 모바일 폰에서는 내 깃북 페이지가 살아있어 텍스트만 복사해두었다.
 
-![](../../.gitbook/assets/image%20%2855%29.png)
+![](../../.gitbook/assets/image%20%2856%29.png)
 
 그리고 Gitbook과 Github을 동기화 하려고, 원격 저장소를 연결했다.
 
