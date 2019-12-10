@@ -227,7 +227,7 @@ The response body includes the following parameters.
 
 
 
-#### \[Button Download\]
+#### Button Download
 
 [https://developers.kakao.com/buttons\#Login\_Buttons](https://developers.kakao.com/buttons#Login_Buttons)
 
@@ -245,7 +245,7 @@ The response body includes the following parameters.
 
 **\(Or User Cases\)**
 
-\[카카오 로그인\] 버튼을 효과적으로 사용할 수 있는 방법**\(Tip\)**과 예시 추
+\[카카오 로그인\] 버튼을 효과적으로 사용할 수 있는 방법**\(Tip\)**과 예시 추가 
 
   
 
@@ -294,7 +294,7 @@ The response body includes the following parameters.
 
 **\(Or Release Note\)**
 
-'v1 사용자 정보 요청과 달라진 점'을 Release Note로 이동 및 변경 이력을 표로 정리 
+'v1 사용자 정보 요청과 달라진 점'을 Change Log\(또는 Release Note\)로 이동. 변경 이력을 표로 정리 
 
 
 
