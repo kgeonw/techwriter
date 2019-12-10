@@ -12,8 +12,7 @@
   * [\[Project\] Gitbook을 이용한 블로그 만들기](today-i-learned/undefined/README.md)
     * [\[Project\] 나만의 앱 만들기](today-i-learned/undefined/project.md)
   * [REST API 공부](today-i-learned/rest-api.md)
-* [LOGIN WITH KAKAO](login-with-kakao/README.md)
-  * [Another version](login-with-kakao/untitled.md)
+* [LOGIN WITH KAKAO](login-with-kakao.md)
 
 ## IT 지식 공부
 

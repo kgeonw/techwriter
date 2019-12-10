@@ -33,7 +33,7 @@ Kakao Login API enables users to log in your application with their kakao accoun
 
 Kakao Login API complies with OAuth 2.0. The Open Authorization\(OAuth\) is a standard authorization framework that allows a third-party application to access limited information with an access token without user’s ID and password. Here is the process of OAuth authentication.
 
-![Login Flow](../.gitbook/assets/image%20%2820%29.png)
+![Login Flow](.gitbook/assets/image%20%2820%29.png)
 
 1. A User clicks the \[Login with Kakao\] button.
 
@@ -62,15 +62,15 @@ Kakao Login API complies with OAuth 2.0. The Open Authorization\(OAuth\) is a st
 
 #### Step 1: Activate \[Login with Kakao\]
 
-![](../.gitbook/assets/image%20%289%29.png)
+![](.gitbook/assets/image%20%289%29.png)
 
 #### Step 2: Specify Items for Permissions 
 
-![](../.gitbook/assets/image%20%281%29.png)
+![](.gitbook/assets/image%20%281%29.png)
 
 #### Step 3: Set redirect URL
 
-![](../.gitbook/assets/image%20%2839%29.png)
+![](.gitbook/assets/image%20%2839%29.png)
 
 
 
@@ -231,7 +231,7 @@ The response body includes the following parameters.
 
 [https://developers.kakao.com/buttons\#Login\_Buttons](https://developers.kakao.com/buttons#Login_Buttons)
 
-![](../.gitbook/assets/image%20%2852%29.png)
+![](.gitbook/assets/image%20%2852%29.png)
 
 #### 
 
