@@ -124,7 +124,7 @@ Reference this [link](https://www.example.com/) for a more detailed description
 
 코드 문서는 본질적으로 많은 정보를 포함한다. 코드 파라미터와 변수의 경우는 표를 이용하여 정보를 전달하라. [Peter Gruenbaum의 기사](https://www.programmableweb.com/news/web-api-documentation-best-practices/2010/08/12)에서는 4열 구조\(Name,  Type, Description, Remarks\)를 추천한다.
 
-![resource: Peter Gruenbarum&apos;s article](../.gitbook/assets/image%20%2835%29.png)
+![resource: Peter Gruenbarum&apos;s article](../.gitbook/assets/image%20%2837%29.png)
 
  [SendBird](https://docs.sendbird.com/platform?utm_source=Blog&utm_medium=Referral-Text&_ga=2.199464174.1799238679.1565728700-1150278189.1565728700#user_3_create_a_user)의 경우 비슷한 구조에 “description”와 “remarks.”를 합쳐 3열의 표를 사용한다. 추가 열을 추가하고 일반적인 “description” 열에 작성할지 API의 디자인에 따라 선택해야 한다.
 

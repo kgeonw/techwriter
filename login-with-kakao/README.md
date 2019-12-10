@@ -1,10 +1,12 @@
 ---
-description: Kakao API Portal (English ver.)
+description: Kakao Developers (English ver.)
 ---
 
 # LOGIN WITH KAKAO
 
-Kakao: Supplier, You: a third-party application, User: users
+                                                                                                         You are in **\[REST API\]** &gt; **\[LOGIN WITH KAKAO\]**
+
+\*\*\*\*
 
 This page explains how to integrate **Login with Kakao** on your app.
 
@@ -31,6 +33,8 @@ Kakao Login API enables users to log in your application with their kakao accoun
 
 Kakao Login API complies with OAuth 2.0. The Open Authorization\(OAuth\) is a standard authorization framework that allows a third-party application to access limited information with an access token without user’s ID and password. Here is the process of OAuth authentication.
 
+![Login Flow](../.gitbook/assets/image%20%2820%29.png)
+
 1. A User clicks the \[Login with Kakao\] button.
 
 2. Once the user logs in with the user’s Kakao ID and password, the user is redirected to a screen that asks Users’ consent to access the limited information. 
@@ -39,7 +43,7 @@ Kakao Login API complies with OAuth 2.0. The Open Authorization\(OAuth\) is a st
 
 4. Once your application validates the Authorization code, your app requests Access Token and Refresh Token.
 
-5. The Kakao authorization server validates and issues Access Token and Refresh Token based on the Authorization code.
+5. The Kakao authorization server validates and issues Access Token and Refresh Token based on the Authorization code,  and provides authentication.
 
   
 ****
@@ -66,13 +70,13 @@ Kakao Login API complies with OAuth 2.0. The Open Authorization\(OAuth\) is a st
 
 #### Step 3: Set redirect URL
 
-![](../.gitbook/assets/image%20%2837%29.png)
+![](../.gitbook/assets/image%20%2839%29.png)
 
 
 
 ## Integrating Kakao Login
 
-### Authentication
+### 1. Authentication
 
 Kakao Login API complies with OAuth 2.0. The Open Authorization\(OAuth\) is a standard authorization framework that allows a third-party application to access limited information with an access token without user’s ID and password. For the details about OAuth 2.0, click [here](https://tools.ietf.org/html/rfc6749).
 
@@ -87,7 +91,7 @@ Kakao Login API complies with OAuth 2.0. The Open Authorization\(OAuth\) is a st
 
 #### Step 2: Get an Access Token
 
-After a user has obtained the Authorization code, the user can get Access Token and Refresh Token via the Authorization code in order to call API.
+After a user has obtained the Authorization code, the user can get Access Token and Refresh Token via the Authorization code used to make API calls.
 
 **\[Request\]**
 
@@ -97,8 +101,7 @@ Host: kauth.kakao.com
 Content-type: application/x-www-form-urlencoded;charset=utf-8
 ```
 
-You need to include the following query parameters in the authorization URL with POST method.  
- 
+You can request with the following query parameters in the request body with POST method in a form-urlencoded format.
 
 <table>
   <thead>
@@ -115,25 +118,23 @@ You need to include the following query parameters in the authorization URL with
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left"><em>grant_type</em>
-      </td>
+      <td style="text-align:left">grant_type</td>
       <td style="text-align:left"><code>authorization_code</code> (fixed)</td>
       <td style="text-align:left">String</td>
       <td style="text-align:left">O</td>
     </tr>
     <tr>
-      <td style="text-align:left"><em>client_id</em>
-      </td>
+      <td style="text-align:left">client_id</td>
       <td style="text-align:left">
-        <p>a REST API key that is issued by Kakao when creating an application.</p>
+        <p>A REST API key that is an identifier for an application and issued by
+          Kakao when creating an application.</p>
         <p>You can check this key in [Settings] &gt; [User Management].</p>
       </td>
       <td style="text-align:left">String</td>
       <td style="text-align:left">O</td>
     </tr>
     <tr>
-      <td style="text-align:left"><em>redirect_uri</em>
-      </td>
+      <td style="text-align:left">redirect_uri</td>
       <td style="text-align:left">Callback URL that users are redirected to.
         <br /><b>!! This URL must coincide with the designated URL in [Settings]</b> &gt;
         [<b>User Management]</b> &gt; [<b>Login Redirect URI]</b>.</td>
@@ -141,33 +142,24 @@ You need to include the following query parameters in the authorization URL with
       <td style="text-align:left">O</td>
     </tr>
     <tr>
-      <td style="text-align:left"><em>cod</em>e</td>
-      <td style="text-align:left">authorization_code that is issued in the [Step 1: Get an Authorization
-        code] to get an access token.</td>
+      <td style="text-align:left">code</td>
+      <td style="text-align:left"><code>authorization_code </code>that is issued in the [Step 1: Get an
+        Authorization code] to get an access token.</td>
       <td style="text-align:left">String</td>
       <td style="text-align:left">O</td>
     </tr>
     <tr>
-      <td style="text-align:left"><em>client_secret</em>
+      <td style="text-align:left">client_secret</td>
+      <td style="text-align:left">
+        <p><code>client_secret code</code>that is issued by Kakao when creating an
+          application.</p>
+        <p>You can check this in [Settings] &gt; [Advanced] &gt; [Client Secret].</p>
       </td>
-      <td style="text-align:left"><code>client_secret code</code> that is set in [Settings] &gt; [Advanced]
-        &gt; [Client Secret]
-        <br />ACTIVE &#xC0C1;&#xD0DC; &#xC778; &#xACBD;&#xC6B0; &#xD544;&#xC218;&#xB85C;
-        &#xC124;&#xC815;&#xD574;&#xC57C; &#xD568;
-        <br />(Required X&#xAC00; &#xC544;&#xB2C8;&#xB77C; &#xD588;&#xB294;&#xB370;
-        &#xD574;&#xB2F9; &#xBB38;&#xAD6C;&#xAC00; &#xD63C;&#xB3D9;&#xC744; &#xC90C;.
-        ACTIVE&#xAC00; &#xAD6C;&#xCCB4;&#xC801;&#xC73C;&#xB85C; &#xC758;&#xBBF8;&#xD558;&#xB294;
-        &#xAC83;&#xC774; &#xBB34;&#xC5C7;&#xC778;&#xC9C0;&#xB3C4; &#xBAA8;&#xD638;)</td>
-      <td
-      style="text-align:left">String</td>
-        <td style="text-align:left">X</td>
+      <td style="text-align:left">String</td>
+      <td style="text-align:left">X</td>
     </tr>
   </tbody>
-</table>
-
-**\[Example Request\]**
-
-For example, if you request with POST method as follows:
+</table>For example, if you request with POST method as follows:
 
 {% tabs %}
 {% tab title="Example Request " %}
@@ -181,9 +173,11 @@ curl -v -X POST https://kauth.kakao.com/oauth/token \
 {% endtab %}
 {% endtabs %}
 
-**\[Example Response\]**
+\*\*\*\*
 
- If successful, which returns the resources in JSON format**.** 
+**\[Response\]**
+
+It returns the resources in JSON format if successful.
 
 {% tabs %}
 {% tab title="Example Response" %}
@@ -200,21 +194,17 @@ Content-Type: application/json;charset=UTF-8
 {% endtab %}
 {% endtabs %}
 
-
-
-**\[Response\]**
-
-The following table lists the parameters in the response body.
+The response body includes the following parameters.
 
 | **Property** | **Description** | **Type** |
 | :--- | :--- | :--- |
 | access\_token | A token used to call API | String |
-| Token\_type | Bearer | String |
+| token\_type | `bearer` \(fixed\), a type of a token. | String |
 | refresh\_token | A token used to get a new access token | String |
-| expire\_in | Amount of time in seconds until the access token expires | Integer |
-| Scope | Permission to granted by the user | String |
+| expire\_in | Amount of time in _seconds_ until the access token expires | Integer |
+| scope | Permission to granted by the user | String |
 
-&gt;표 추
+&gt;표 추가.
 
 
 
@@ -230,18 +220,18 @@ The following table lists the parameters in the response body.
 
 ### 
 
-### Add a Login Button
+### 2. Add a Login Button
 
 개발자 입장에서 순차적으로 로그인 API를 구현하도록 재배치  
 : 인증과정\(Authentication\) 후 , \[카카오 로그인\] 버튼 추가하도록 배치 변경
 
 
 
-#### Button Download
+#### \[Button Download\]
 
 [https://developers.kakao.com/buttons\#Login\_Buttons](https://developers.kakao.com/buttons#Login_Buttons)
 
-![](../.gitbook/assets/image%20%2850%29.png)
+![](../.gitbook/assets/image%20%2852%29.png)
 
 #### 
 
@@ -252,6 +242,8 @@ The following table lists the parameters in the response body.
 
 
 #### Best Practices
+
+**\(Or User Cases\)**
 
 \[카카오 로그인\] 버튼을 효과적으로 사용할 수 있는 방법**\(Tip\)**과 예시 추
 
@@ -298,7 +290,9 @@ The following table lists the parameters in the response body.
 
 
 
-## **Release Note**
+## Change Log
+
+**\(Or Release Note\)**
 
 'v1 사용자 정보 요청과 달라진 점'을 Release Note로 이동 및 변경 이력을 표로 정리 
 

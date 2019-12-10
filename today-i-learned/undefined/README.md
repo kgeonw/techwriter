@@ -32,11 +32,11 @@ Github와 Gitbook연동을 하지 않았다.
 
 아보느 님의 유튜브 강의를 통해 쉽게 해결했다.
 
-![](../../.gitbook/assets/image%20%2841%29.png)
+![](../../.gitbook/assets/image%20%2843%29.png)
 
-![](../../.gitbook/assets/image%20%2849%29.png)
+![](../../.gitbook/assets/image%20%2851%29.png)
 
-![](../../.gitbook/assets/image%20%2838%29.png)
+![](../../.gitbook/assets/image%20%2840%29.png)
 
 연동을 했더니 드디어 Gitbook으로 썼던 컨텐츠들이 Github에 보이기 시작했다.
 
@@ -48,11 +48,11 @@ Github와 Gitbook연동을 하지 않았다.
 
 이번엔 작성한 컨텐츠를 로컬로 가져와볼까?
 
-![](../../.gitbook/assets/image%20%2820%29.png)
+![](../../.gitbook/assets/image%20%2822%29.png)
 
 Github의 blog repository에 있던 데이터들도 내 로컬 pc로 들어왔다.
 
-![](../../.gitbook/assets/image%20%2833%29.png)
+![](../../.gitbook/assets/image%20%2835%29.png)
 
 그런데 아직도 개념이 잘 서지 않는다.
 
@@ -105,7 +105,7 @@ Gitbook 메뉴를 뒤졌다.
 
 다행히 모바일 폰에서는 내 깃북 페이지가 살아있어 텍스트만 복사해두었다.
 
-![](../../.gitbook/assets/image%20%2856%29.png)
+![](../../.gitbook/assets/image%20%2860%29.png)
 
 그리고 Gitbook과 Github을 동기화 하려고, 원격 저장소를 연결했다.
 

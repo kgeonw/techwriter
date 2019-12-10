@@ -13,7 +13,7 @@
     * [\[Project\] 나만의 앱 만들기](today-i-learned/undefined/project.md)
   * [REST API 공부](today-i-learned/rest-api.md)
 * [LOGIN WITH KAKAO](login-with-kakao/README.md)
-  * [Untitled](login-with-kakao/untitled.md)
+  * [Another version](login-with-kakao/untitled.md)
 
 ## IT 지식 공부
 
