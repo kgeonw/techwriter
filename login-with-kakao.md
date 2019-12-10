@@ -23,7 +23,7 @@ This page explains how to integrate **Login with Kakao** on your app.
 
 ## **Overview**
 
-Kakao Login API enables users to log in your application with their kakao accounts in a fast, simple, and secure way. With the easy-to use functions, users do not need to sign up or log in a third application. Users do not need to sign up or log in a third application with the easy-to-use functions, which helps you to keep users on your application and maximize the number of people using your application.
+Kakao Login API enables users to log in your application with their kakao accounts in a fast, simple, and secure way. Users do not need to sign up or log in a third application with the easy-to-use functions, which helps you to keep users on your application and maximize the number of people using your application.
 
 
 
